@@ -79,6 +79,12 @@ The model achieves significant improvements over baseline CNN/Glove models:
 | Recall    | 96.91               | ~98.72            |
 | F1-Score  | 96.75               | ~98.52            |
 
+## References
+
+The baseline results and comparison are based on the following paper:
+
+- Abbasi, A., Javed, A.R., Iqbal, F. et al. **Deep learning for religious and continent-based toxic content detection and classification.** *Sci Rep* 12, 17478 (2022). [https://doi.org/10.1038/s41598-022-22523-3](https://doi.org/10.1038/s41598-022-22523-3)
+
 ## License
 
-[Specify License Here]
+This project is licensed under the MIT License. It is intended for educational and research purposes.
