@@ -1,6 +1,6 @@
-# Religious Toxic Classification Re-implementation
+# Religious Toxic Classification implementation
 
-This repository contains the re-implementation of a toxicity classification model specifically focused on religious identity groups. The model utilizes **DeBERTa-v3** with a custom **Hierarchical Attention** mechanism and **Adaptive Pooling** to achieve high performance in multi-label classification of religious toxicity.
+This repository contains the implementation of a toxicity classification model specifically focused on religious identity groups. The model utilizes **DeBERTa-v3** with a custom **Hierarchical Attention** mechanism and **Adaptive Pooling** to achieve high performance in multi-label classification of religious toxicity.
 
 ## Project Overview
 
