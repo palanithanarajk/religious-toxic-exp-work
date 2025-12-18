@@ -1,4 +1,4 @@
-# Religious Toxic Classification implementation
+# Religious Toxic Classification
 
 This repository contains the implementation of a toxicity classification model specifically focused on religious identity groups. The model utilizes **DeBERTa-v3** with a custom **Hierarchical Attention** mechanism and **Adaptive Pooling** to achieve high performance in multi-label classification of religious toxicity.
 
@@ -23,8 +23,8 @@ The goal of this project is to accurately identify toxic comments directed towar
 
 ## Repository Structure
 
-- `re_implementation.ipynb`: A well-documented Jupyter notebook containing the full pipeline.
-- `re_implementation.py`: A Python script version of the pipeline.
+- `main_notebook.ipynb`: A well-documented Jupyter notebook containing the full pipeline.
+- `main.py`: A Python script version of the pipeline.
 - `requirements.txt`: List of required Python packages.
 
 ## Getting Started
@@ -49,6 +49,10 @@ The goal of this project is to accurately identify toxic comments directed towar
 
 ### Data Preparation
 
+The dataset used for this project is from the [Jigsaw Unintended Bias in Toxicity Classification](https://www.kaggle.com/competitions/jigsaw-unintended-bias-in-toxicity-classification/data) Kaggle competition.
+
+Download the `train.csv` (and other related files) from the link above and place it in the project root or specify its path in the code.
+
 The model expects a CSV file (e.g., `train.csv`) with the following columns:
 - `comment_text`: The text of the comment.
 - `christian`, `jewish`, `muslim`, `hindu`, `buddhist`, `atheist`, `other_religion`: Toxicity labels (0 or 1, or continuous values >= 0.5 for toxicity).
@@ -56,12 +60,12 @@ The model expects a CSV file (e.g., `train.csv`) with the following columns:
 ### Running the Re-implementation
 
 #### Using Jupyter Notebook
-Open `re_implementation.ipynb` in your preferred environment (JupyterLab, VS Code, etc.) and run the cells sequentially.
+Open `main_notebook.ipynb` in your preferred environment (JupyterLab, VS Code, etc.) and run the cells sequentially.
 
 #### Using Python Script
 Run the script directly from the terminal:
 ```bash
-python re_implementation.py
+python main.py
 ```
 
 ## Results
